@@ -1,0 +1,89 @@
+* {
+  margin: 0px;
+}
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+.box {
+  border: 2px solid black;
+  width: 550px;
+  height: 500px;
+  margin: 30px auto;
+  background: linear-gradient(to bottom, white, orange);
+  h2 {
+    text-transform: uppercase;
+  }
+}
+.App {
+  text-align: center;
+  background-color: rgb(145, 133, 133);
+  width: 100vw;
+  height: 100vh;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 12, 121, 1) 67%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+.box2 {
+  border: 2px solid red;
+  width: 80%;
+  height: 80%;
+  border-radius: 25px;
+  margin: 0px auto;
+  padding: 10px;
+}
+.over {
+  height: 85%;
+  overflow: auto;
+  border-radius: 25px;
+  font-family: "Montserrat Alternates", sans-serif;
+  font-size: 25px;
+  padding-top: 15px;
+  // font-variant: small-caps;
+  #fix {
+    position: fixed;
+    top: 80%;
+    left: 63%;
+    font-size: 40px;
+    transition: all 0.2s;
+  }
+}
+.bold {
+  padding: 5px;
+  font-size: larger;
+  border-radius: 25px;
+}
+.button {
+  font-size: large;
+}
+.prj {
+  background: linear-gradient(
+    90deg,
+    rgba(236, 137, 10, 0.9401960613346901) 29%,
+    rgba(2, 0, 36, 0.40518205573244925) 82%
+  );
+box-shadow: 0px 5px 300px 1px rgb(170, 161, 161);}
+#position {
+  position: fixed;
+  top: 80.2%;
+  left: 39%;
+  font-size: 22px;
+  border-radius: 10px;
+  padding: px;
+}
+
+Table td {
+  padding: 10px;
+}
+td {
+  padding: 10px;
+}
+td:first-child {
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+td:last-child {
+  border-bottom-right-radius: 30px;
+  border-top-right-radius: 30px;
+}

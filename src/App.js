@@ -1,23 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import { Route, Routes } from "react-router-dom";
+import "./App.css";
+import Featureshow from "./component/featureshow";
+import Projectshow from "./component/projectshow";
+import Todolistshow from "./component/todolistshow";
+
 
 function App() {
+  const a = "hello world"
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Routes>
+        <Route path="/" element={<Projectshow cmp={a} />} />
+        <Route path="/feature/:index" element={<Featureshow />} />
+        <Route path="/todolist/:index/:i" element={<Todolistshow />} />
+        <Route path="*" element={<>Page Not Found</>} />
+      </Routes>
     </div>
   );
 }
