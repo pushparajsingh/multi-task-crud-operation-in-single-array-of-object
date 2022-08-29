@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App">
       <Routes>
-        <Route path="/multi-task-crud-operation-in-single-array-of-object/" element={<Projectshow cmp={a} />} />
+        <Route path="/" element={<Projectshow cmp={a} />} />
         <Route path="/feature/:index" element={<Featureshow />} />
         <Route path="/todolist/:index/:i" element={<Todolistshow />} />
         <Route path="*" element={<>Page Not Found</>} />
