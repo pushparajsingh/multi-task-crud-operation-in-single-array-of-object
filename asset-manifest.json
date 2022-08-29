@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/multi-task-crud-operation-in-single-array-of-object/static/css/main.f01f400c.css",
+    "main.js": "/multi-task-crud-operation-in-single-array-of-object/static/js/main.4c264a54.js",
+    "static/js/787.d3befce1.chunk.js": "/multi-task-crud-operation-in-single-array-of-object/static/js/787.d3befce1.chunk.js",
+    "index.html": "/multi-task-crud-operation-in-single-array-of-object/index.html",
+    "main.f01f400c.css.map": "/multi-task-crud-operation-in-single-array-of-object/static/css/main.f01f400c.css.map",
+    "main.4c264a54.js.map": "/multi-task-crud-operation-in-single-array-of-object/static/js/main.4c264a54.js.map",
+    "787.d3befce1.chunk.js.map": "/multi-task-crud-operation-in-single-array-of-object/static/js/787.d3befce1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f01f400c.css",
+    "static/js/main.4c264a54.js"
+  ]
+}
